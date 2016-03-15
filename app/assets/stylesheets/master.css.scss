@@ -1,19 +1,17 @@
-.clear {
-  clear:both;
-}
+
 
 .circle {
     font-weight:bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: red;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
+    color: red;
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
@@ -36,10 +34,7 @@
   font-family: 'nobileregular', sans-serif;
   font-weight:bold;
 }
-hr {
-  clear:both;
 
-}
 h1 {
   font-family: 'nobileregular', sans-serif;
   font-weight:bold;
@@ -48,5 +43,17 @@ h1 {
 
 h2 {
   font-family: 'nobilemedium_italic', sans-serif;
+
+next-quote {
+    color: #F84342;
+    font-family: '2dumbregular';
+    font-size:20px;
+}
+
+hr {
+  clear:both;
+
+}
+
 }
 }
